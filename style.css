@@ -1,0 +1,396 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #e7c9b5;
+  text-align: center;
+  background: url("img/food-header-logo.jpg") fixed;
+  background-size: cover;
+}
+/*色メモ
+rgba(250, 210, 150, 0.9)
+*/
+.header {
+  padding: 30px 20px;
+  background-color: #fff;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  color: hsl(0, 2%, 48%);
+  box-shadow: 3px 3px 3px #000;
+}
+
+.header-ttl {
+  font-family: "Bitter", serif;
+  font-family: "Dancing Script", cursive;
+}
+
+.header-nav {
+  display: flex;
+  margin-left: auto;
+  font-size: 15px;
+  color: #fff;
+}
+
+.header-nav-list {
+  display: flex;
+  color: #fff;
+}
+
+.header-nav-item {
+  color: #fff;
+  padding: 0px 20px;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #7c7777;
+}
+
+a:hover {
+  color: rgb(228, 167, 54);
+  height: 50px;
+  width: 150px;
+  display: block;
+  text-align: center;
+  background: #f5f2ebb3;
+  padding: 10px 10px;
+}
+
+.firstview {
+  height: 70vh;
+  margin: 100px auto;
+  font-family: "Kaushan Script", cursive;
+  font-family: "Satisfy", cursive;
+}
+
+.site-discription {
+  font-family: "Bitter", serif;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+}
+
+.site-ttl {
+  margin-top: 40px;
+  font-size: 100px;
+  font-family: "Bitter", serif;
+  font-family: "Dancing Script", cursive;
+}
+
+.sub-ttl {
+  margin-top: 30px;
+  font-size: 45px;
+  font-family: "Bitter", serif;
+  font-family: "Dancing Script", cursive;
+}
+
+.battons {
+  display: flex;
+  justify-content: center;
+  font-family: "Bitter", serif;
+  font-family: "Dancing Script", cursive;
+}
+
+.batton {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(90deg, #afeeee, hsl(0, 2%, 68%));
+  border-radius: 30px;
+  width: 150px;
+  padding: 10px 10px;
+  font-size: 30px;
+  margin: 100px auto;
+}
+
+.batton-right {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(90deg, hsl(32, 82%, 63%), rgb(199, 195, 195));
+  border-radius: 30px;
+  width: 150px;
+  padding: 10px 10px;
+  font-size: 30px;
+  margin: 100px auto;
+}
+/*ニュース*/
+.news {
+  box-shadow: 3px 3px 3px #000;
+  height: 100%;
+  background-color: rgba(250, 210, 150, 0.9);
+  color: #696969;
+}
+
+.news-ttl {
+  color: rgb(236, 114, 32);
+  font-size: 30px;
+  font-family: "Bitter", serif;
+  font-family: "Dancing Script", cursive;
+  padding: 20px 0px;
+}
+
+.news-new {
+  font-size: 30px;
+  border-bottom: 1px solid #7c7777;
+  padding: 30px 0px;
+}
+
+dl {
+  display: flex;
+  margin: auto;
+  padding: 20px 40px;
+  justify-content: center;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+dd {
+  border-bottom: 1px solid #7c7777;
+  letter-spacing: 2px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.news-last-border {
+  border-bottom: 1px solid #7c7777;
+  width: 100%;
+  padding: 30px 0px;
+}
+/*ニュース*/
+
+.menu-ttl {
+  padding: 40px;
+  height: 100%;
+  background-color: #fff;
+}
+.menu-ttl-title {
+  font-size: 30px;
+  text-align: center;
+  color: #7c7777;
+  padding: 30px;
+}
+
+.menu-ttl-discription {
+  display: flex;
+}
+
+.menu-ttl-img {
+  width: 50%;
+}
+
+.menu-ttl-p {
+  width: 50%;
+}
+
+.menu-h3 {
+  font-size: 20px;
+  color: #696969;
+  margin-top: 20%;
+  letter-spacing: 2px;
+}
+
+.menu-ttl-coment {
+  font-size: 15px;
+  color: #7c7777;
+  letter-spacing: 2px;
+  padding: 10px 60px;
+  text-align: center;
+  line-height: 20px;
+}
+/*↓フードメニュー*/
+.food-content {
+  height: 50vh;
+  display: flex;
+  position: relative;
+}
+
+.food-discription {
+  width: 50%;
+  background-color: #e3cec3;
+}
+
+.menu-list-p {
+  font-size: 10px;
+  position: absolute;
+}
+.food-img {
+  width: 50%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-ttl-coment {
+  margin: 100px auto;
+}
+/*フードメニュー*/
+.food-twe {
+  height: 50vh;
+  display: flex;
+}
+
+.food-pasta-menu {
+  width: 50%;
+  background-color: #d9d9db;
+}
+
+.food-pasta-img {
+  width: 50%;
+  background: #fff;
+}
+
+/*ドリンクメニュー*/
+.drink-content {
+  height: 50vh;
+  display: flex;
+}
+
+.drink-discription {
+  width: 50%;
+  height: 100%;
+  background-color: #e3cec3;
+}
+
+.menu-ul {
+  margin: 100px auto;
+}
+
+.menu-list {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 0px;
+  color: #fff;
+}
+
+.drink-img {
+  width: 50%;
+  height: 100%;
+}
+
+/*ドリンクメニュー*/
+.drink-soft {
+  height: 50vh;
+  display: flex;
+}
+
+.drink-soft-img {
+  width: 50%;
+  height: 100%;
+}
+
+.drink-soft-discription {
+  width: 50%;
+  background: #d3b4af;
+}
+
+/*ドリンクメニューここまで*/
+
+.access {
+  height: 50vh;
+  background-color: rgba(236, 190, 138, 0.9);
+  display: flex;
+}
+
+.access-left-img {
+  width: 50%;
+}
+
+.iframe-wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 50%; /* = height ÷ width × 100 */
+}
+.iframe-wrap iframe {
+  padding: 30px 30px;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 100%;
+}
+
+.access-right {
+  width: 50%;
+}
+
+.access-discription {
+  position: relative;
+
+  width: 80%;
+  height: 350px;
+  margin: 100px auto;
+}
+
+.access-list {
+  font-size: 25px;
+  color: #7c7777;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 10%;
+  padding: 20px 20px;
+  letter-spacing: 5px;
+}
+
+.access-p {
+  font-size: 20px;
+  color: #7c7777;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 60%;
+  letter-spacing: 3px;
+}
+
+.contact {
+  padding: 170px 30px 80px;
+  height: 50vh;
+  background-color: rgba(129, 108, 108, 0.9);
+}
+
+.contact-h3 {
+  font-size: 15px;
+}
+
+.contact-p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.btn-square-so-pop {
+  margin-top: 50px;
+  position: relative;
+  display: inline-block;
+  padding: 15px 15px;
+  text-decoration: none;
+  color: #fff;
+  background: #fd9535; /*色*/
+  border-radius: 4px; /*角の丸み*/
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.2),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.05);
+  font-weight: bold;
+  border: solid 2px #d27d00; /*線色*/
+}
+
+.btn-square-so-pop:active {
+  /*押したとき*/
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+  height: 40px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
